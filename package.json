@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel src/index.html && live-server",
     "build": "parcel build src/index.html",
     "start": "npm run build && live-server dist"
   },
